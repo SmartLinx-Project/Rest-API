@@ -19,7 +19,7 @@ public class Main {
         // Configura il contesto SSL
         SSLContextConfigurator sslContextConfig = new SSLContextConfigurator();
         sslContextConfig.setKeyStoreFile("resources/keystore.jks"); // Percorso del tuo keystore
-        sslContextConfig.setKeyStorePass("gEGP429MRwRA"); // Password del tuo keystore
+        sslContextConfig.setKeyStorePass("...."); // Password del tuo keystore
 
         HttpServer server = GrizzlyHttpServerFactory.createHttpServer(
                 serverAddress,
